@@ -1,0 +1,51 @@
+{
+    "server": {
+        "port": 8003
+    },
+    "app": {
+        "apiPrefix" : "/",
+        "url": "https://620f-183-82-108-162.ngrok-free.app" 
+    },
+    "validations": {
+        "leastNodeVersion": 10
+    }, 
+    "credentials": {
+        "botName":"Tune Talk Bot",
+        "botId":"st-b065a2c4-154f-5864-a9b1-7cbde5f02aca",
+        "apikey": "VGH0B6kB7QPDMjRVQeghLGvVJyEse6stE0Tq3nF5IcQ=",
+        "appId": "cs-14e44a2d-e68f-5ad7-8132-a82a80098093"
+    },
+    "jwt": {
+        "jwtAlgorithm": "HS256",
+        "jwt-expiry": 60,
+        "st-67890":{
+            "jwtAlgorithm": "HS512",
+            "jwt-expiry": 60
+        }
+    },
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "available": false
+    },
+    "examples" : {
+        "mockServicesHost"  : "http://localhost:8004"
+    },
+    "liveagentlicense": "8947569",
+    "supportsMessageAck": true,
+    "languages":["en","de"],
+    "addMessageUrl":"https://dev-capi.nubitel.io/v1/web-chat/add-message",
+    "endChatApi":"https://dev-capi.nubitel.io/v1/web-chat/end-session",
+    "nubitelAppId":"13d6fa73-4173-434e-b93c-5c027ffa2494",
+    "authTokenLiveChat":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjEzZDZmYTczLTQxNzMtNDM0ZS1iOTNjLTVjMDI3ZmZhMjQ5NCIsImlhdCI6MTcyMTkwMjQwMX0.qoxyZu-u2nMRDebBk6TVhm044-OwfCv6BIEDcw4qrlI",
+    "chatHistoryApi":"https://bots.kore.ai/api/public/bot/st-b065a2c4-154f-5864-a9b1-7cbde5f02aca/getMessages",
+    "sendTextMessageApi":"https://nubitel.app/api/WhatsappMessage/SendTextMessage",
+    "sendInteractiveMessageApi":"https://nubitel.app/api/WhatsappMessage/SendButtonMessage",
+    "whatsappId":"7c63d140-8924-414e-998a-ef2993e74f28",
+    "intiateChatApi":"https://dev-capi.nubitel.io/v1/web-chat/new-session",
+    "accessTokenApi":"https://nubitel.app/Login?email=tunetalk@nubitel.co&password=23w1LLch4!",
+    "webhookUrl":"https://bots.kore.ai/chatbot/v2/webhook/st-b065a2c4-154f-5864-a9b1-7cbde5f02aca",
+    "historyLimit":100
+}   
