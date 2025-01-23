@@ -247,7 +247,7 @@
                 }
                 if (response.statusCode !== 200) {
                     // console.error(`Kore.ai request failed with status code ${response.statusCode}`);
-                    logger.errorWithFunction(`Kore.ai request failed with status code ${response.statusCode}`,'SimpleConversationalBot.js/handleWABAtoKoreAndBack');
+                    logger.warnWithFunction(`Kore.ai request failed with status code ${response.statusCode}`,'SimpleConversationalBot.js/handleWABAtoKoreAndBack');
                     return;
                 }
                 let koreResponse;
