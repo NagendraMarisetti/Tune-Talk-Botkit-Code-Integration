@@ -5,8 +5,6 @@ var config      = require("./config");
 
 var app    = new Application(null, config);
 var server = new Server(config, app);
-var routes=app.load() 
-module.exports=routes;
 
 sdk.checkNodeVersion();
 

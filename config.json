@@ -1,10 +1,10 @@
 {
     "server": {
-        "port": 8004
+        "port": 8009
     },
     "app": {
         "apiPrefix" : "/",
-        "url": "https://7827-183-82-108-162.ngrok-free.app" 
+        "url": "https://c577-183-82-108-162.ngrok-free.app" 
     },
     "validations": {
         "leastNodeVersion": 10
